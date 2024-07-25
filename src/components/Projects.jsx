@@ -9,10 +9,18 @@ const Projects = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusantium placeat hic harum explicabo laboriosam repellat vitae aspernatur, praesentium earum consectetur unde doloribus obcaecati nulla aliquid temporibus sed excepturi nisi.
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem img={projectImg} title='Bug Tracking tool' />
-          <ProjectItem img={projectImg} title='Calculator' />
-          <ProjectItem img={projectImg} title='To do' />
-          <ProjectItem img={projectImg} title='Weather app' />
+          <a href="https://github.com/GauthamPrakash14/Bug-Reporting-Tool-FE" target="_blank" rel="noopener">
+            <ProjectItem img={projectImg} title='Bug Tracking tool' />
+          </a>
+          <a href="https://github.com/GauthamPrakash14/contacts-backend" target="_blank" rel="noopener">
+            <ProjectItem img={projectImg} title='Contacts Backend' />
+          </a>
+          <a href="https://github.com/GauthamPrakash14/responsive-search-bar" target="_blank" rel="noopener">
+            <ProjectItem img={projectImg} title='Responsive Search Bar' />
+          </a>
+          <a href="https://github.com/GauthamPrakash14/weather-app" target="_blank" rel="noopener">
+            <ProjectItem img={projectImg} title='Weather app' />
+          </a>
         </div>
     </div>
   )
