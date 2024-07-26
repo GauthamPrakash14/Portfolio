@@ -8,7 +8,7 @@ const Projects = () => {
         <p className="text-center py-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusantium placeat hic harum explicabo laboriosam repellat vitae aspernatur, praesentium earum consectetur unde doloribus obcaecati nulla aliquid temporibus sed excepturi nisi.
         </p>
-        <div className="grid sm:grid-cols-2 gap-12">
+        <div className="grid sm:grid-cols-4 gap-12">
           <a href="https://github.com/GauthamPrakash14/Bug-Reporting-Tool-FE" target="_blank" rel="noopener">
             <ProjectItem img={projectImg} title='Bug Tracking tool' />
           </a>
